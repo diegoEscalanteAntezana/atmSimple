@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: slategray;
+        }
+        h1 {
+            background-color: chocolate;
+            color: #baabba;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM SteelMoney</title>
+</head>
+<body>
+    
+    <h1>CAJERO DE SteelMoney</h1>
+    <table>
+        <tr>
+            <td>
+                <img src="cajero.gif"/>
+            </td>
+            <td>
+                <p id="sobranteCaja"></p>
+            </td>
+        </tr>
+    </table>
+    
+    Cuanto desea retirar?
+    <input type="number" id="dinero"/>
+    <input type="button" value="Retirar dinero" id="retirar"/>
+
+    <p id="resultado"></p>
+    <p id="billetes"></p>
+    <script src="cajeroOpt.js"></script>
+    <!--<script src="cajero.js"></script>-->
+</body>
+</html>
